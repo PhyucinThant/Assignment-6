@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> -->
+</head>
+<style>
+    .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid #495057;
+    border-radius: 5px;
+    width: 570px;
+    height: 250px;
+    margin: 50px;
+}
+
+h2{
+    font-family: Montserrat;
+}
+p{
+    font-family: Open Sans;
+}
+#p{
+    color: #343a40;
+    font-size: small;
+}
+img{
+    width:200px;
+    height:250px;
+    border:1px none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.text{
+    height: 300px;
+    width: 300px;
+   padding-left: 50px;
+}
+</style>
+<body>
+    <div class="container">
+        <div>
+            <img src="./tulip1.jpg" alt="Tulip">
+        </div>
+        <div class="text">
+            <h2>Tulip flowers</h2>
+            <p> Tulip flowers are the most liked and most wanted flower in the world.Tulip is the best kind of flower with the best aroma. It is seen that tulip popularity continues to endure. </p>
+            <p id="p">Last updated 4 mins ago</p>
+        </div>
+    </div>
+</body>
+</html>
